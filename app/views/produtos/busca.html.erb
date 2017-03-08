@@ -1,0 +1,16 @@
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Descrição</th>
+            <th>Preço</th>
+            <th>Quantidade</th> 
+            <th>Departamento</th>       
+            <th>Remover</th> 
+            <th>Atualizar</th>        
+        </tr>
+    </thead>
+    <tbody>
+       <%= render partial: "produto" , collection: @produtos %>
+    </tbody>
+</table>
